@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+    font-family: system-ui, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.main{
+   height: 100vh; 
+   width: 100vw;
+background-color: #330e62;
+}
+.nav-container{
+    
+    height: 90vh !important;
+    width: 70vw !important;
+  background-image: linear-gradient(to top right,#1a1541 20%, #181341, #261258, #401082,#600db6,#7a0be2);
+  box-shadow:8px 8px 8px rgb(31, 31, 31) ;
+
+}
+.nav-div{
+    height: 13%;
+    width: 100%;
+  
+}
+.form input{
+    width: 600px;
+    /* background-color:#454165; */
+    background-image: linear-gradient(to right,#464266,#633f99);
+    border: none ;
+    position: relative;
+}
+.form-control::placeholder{
+    color: white;
+    opacity: .7;
+    /* padding-left: 10%; */
+}
+.srch{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    font-size: 20px;
+    font-weight: 100;
+    opacity: .7;
+}
+.icons{
+    width:15%;
+  
+}
+.bell{
+    background-color: #7f3cc4;
+    width: 40px;
+    height: 40px;
+}
+.nav-btn{
+    background-color: #7f3cc4 ;
+    border: white;
+    width: 150px;
+}
+.btn-primary:hover{
+    background-color:  #7f3cc4;
+}
+.section{
+    gap: 2%;
+    height: 87%;
+}
+.left-side-bar{
+    background-color:#5d5a79    ;
+    height:95%;
+    width: 6%;
+}
+.sec-blc-f-btn{
+    width: 90%;
+    height: 35%;
+    text-align: center;
+font-weight: bold;
+    background-color: #ff667b;
+}
+
+.bird{
+    position: relative;
+    bottom: 145%;
+}
+
+
+
+.section-1{
+
+    height:95%; 
+    width: 57%;
+}
+.sec-1-text-area{
+    height: 42%;
+    width: 100%;
+    background-color: #15023d;
+}
+.sec-1-gap{
+    width: 100%;
+height: 10%;
+gap: 10px;
+}
+
+.sec-1-dicrp p{
+    opacity: 0.7;
+}
+.expo{
+    background-color:#e2f344 !important ;
+    color: black;
+    border: none;
+    height: 40px;
+    width: 8rem;
+    font-weight: bold;
+}
+.expo-1{
+    background-color:transparent !important ;
+    color:#e2f344;
+    border: #e2f344 1px solid;
+    height: 40px;
+    width: 8rem;
+    font-weight: bold;
+}
+.sec-1-gap-icons{
+    width: 80px;
+    height: 30px;
+    background-color: #474367;
+}
+.sec-1-gap-icons-2{
+    width: 110px;
+    height: 30px;
+    background-color: #474367;
+}
+.sec-1-gap-content{
+    gap: 10px;
+}
+
+.sec-1-cards{
+    width: 100%;
+    height:48% ;
+    gap: 2%;
+}
+.sec-1-card-box{
+height: 100%;
+width: 33%;
+background-color: #25204d;
+}
+.sec-1-c-b-top{
+ gap: 10px;
+    width: 100%;
+    height: 13%;
+}
+.sec-1-c-b-img{
+    width: 100%;
+    height: 50%;
+}
+.img-thumbnail{
+    background-color:transparent !important;
+    border: none;
+}
+.sec-1-c-b-text{
+    width: 100%;
+    height: 37%;
+}
+.sec-1cb-p{
+    font-size: 10px;
+}
+.h8{
+    font-size: 13px;
+}
+.sold{
+    font-size: 10px;
+}
+
+
+
+.section-2{
+    
+    height:95%; 
+    width: 32%;
+}
+.sec-blc{
+    height: 42%;
+    width: 100%;
+    background-color:#25204d;
+}
+.sec-blc-area{
+    height: 65%;
+
+}
+.sec-blc-1{
+    width: 70%;
+
+}
+.sec-blc-1 p:nth-child(2){
+opacity: .7;
+}
+.circle-container{
+    gap: 5px;
+
+}
+.circle{
+    height: 8px;
+    width: 8px;
+    background-color: white; 
+}
+.sec-blc-footer{
+height: 35%;
+width: 100%;
+
+}
+.sec-blc-f-text{
+    gap: 10px;
+}
+.arrow{
+    height: 16px;
+    width: 16px;
+    background-color: #12d98d;
+}
+.arrow i{
+    font-size: 25px;
+}
+.per{
+    color: #12d98d;
+}
+.sec-blc-2{
+    width: 30%;
+  
+}
+.sec-2-gap{
+    width: 100%;
+    height: 10%;
+   
+}
+.sec-2-gap-icons{
+    width: 80px;
+    height: 30px;
+    background-color:#7b3dbc;
+}
+.sec-2-cards{
+    width: 100%;
+    height:48% ;
+  background-color: #25204d;
+    gap: 1%;
+}
+.sec-2-card-box{
+    height: 100%;
+    width: 49%;
+    background-color:   #25204d;
+}
+.sec-2-c-b-text h6{
+font-size: 14px;
+}
+.time{
+    height: 40px;
+    width: 50px;
+background-color: #e2f344;
+color: black;
+}
+.icons{
+    width: 100%;
+   height: 70%;
+}
+.wind{
+    height: 30px;
+    width: 30px;
+    background-color:  #e2f344;
+}
+.b{
+    color: black;
+}
+
+
